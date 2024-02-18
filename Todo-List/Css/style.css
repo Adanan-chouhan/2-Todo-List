@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    /* background-image: url("https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+ display: grid;
+    justify-content: center; 
+background-color: darkcyan;
+
+}
+
+#myForm {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#input {
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    color: grey;
+    border: 2px solid black;
+}
+
+.divbtn {
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: grey;
+    background-color: white;
+    margin: 10px 5px;
+}
+
+.btn {
+    background-color: darkgrey;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px 5px;
+    cursor: pointer;
+    /* text-align: end; */
+}
+
+.maindiv {
+    display: flex;
+    align-items: center;
+}
+
+#addTodo {
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: solid black 5px;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 85px;
+    /* background-color: white; */
+    display: none;
+}
+
+#newInput{
+    width: 200px;
+    margin-top: 15px;
+    margin-left:38px ;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    color: grey;
+
+}
+
+.newBtn {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    border: none;
+    background-color: chocolate;
+    margin: 5px;
+    margin-left : 105px ;
+    cursor: pointer;
+
+}
